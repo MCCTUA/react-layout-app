@@ -1,9 +1,7 @@
-const App = () => {
-  return (
-    <div className="container">
-      <h1 className="bg-primary text-white mt-3"> App Component </h1>
-    </div>
-  )
-}
+import Home from "./pages/Home";
 
-export default App
+const App = () => {
+  return <Home />;
+};
+
+export default App;

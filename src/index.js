@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // เรียก Bootstrap แบบปรกติ
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/main.scss'
 import './index.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import App from './App';

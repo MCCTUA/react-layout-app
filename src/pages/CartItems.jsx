@@ -9,7 +9,7 @@ const CartItems = (props) => {
         <img src={imgUrl} className="card-img-top" alt="" />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
-          <p className="card-text">{price} THB</p>
+          <p className="card-text">{parseFloat(price).toFixed(2)} THB</p>
           <p className="card-text">{qty} items</p>
         </div>
       </div>
